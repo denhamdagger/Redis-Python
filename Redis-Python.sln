@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Redis-Python", "Redis-Python\Redis-Python.pyproj", "{A4048A0F-8EC8-4E2C-B16C-7269354AEEBD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Twitter-Demo", "Twitter-Demo\Twitter-Demo.pyproj", "{89F78216-C53C-4859-9942-1EB9446B4B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A4048A0F-8EC8-4E2C-B16C-7269354AEEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A4048A0F-8EC8-4E2C-B16C-7269354AEEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F78216-C53C-4859-9942-1EB9446B4B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F78216-C53C-4859-9942-1EB9446B4B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

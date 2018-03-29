@@ -2,15 +2,18 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a4048a0f-8ec8-4e2c-b16c-7269354aeebd</ProjectGuid>
+    <ProjectGuid>89f78216-c53c-4859-9942-1eb9446b4b4a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>13_Query_Products_By_UnitPrice.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Redis-Python</Name>
-    <RootNamespace>Redis-Python</RootNamespace>
+    <Name>Twitter-Demo</Name>
+    <RootNamespace>Twitter-Demo</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>#python</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,29 +24,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="13_Query_Products_By_UnitPrice.py" />
-    <Compile Include="12_Create_Products_UnitPrice_Key.py" />
-    <Compile Include="11_Import_Products.py" />
-    <Compile Include="01_Import_Customers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="10_Query_Customers_From_France_And_With_Owner.py" />
-    <Compile Include="09_Create_Customers_Contact_Title_Key.py" />
-    <Compile Include="08_Query_Customers_From_France.py" />
-    <Compile Include="07_Create_Customers_Country_Key.py" />
-    <Compile Include="06_Query_Customers_Missing_Fields.py" />
-    <Compile Include="05_Query_Customers_Sorted_By_Country.py" />
-    <Compile Include="04_Query_Customers_Sorted_By_ID.py" />
-    <Compile Include="03_Create_Customers_Sort_Key.py" />
-    <Compile Include="02_Query_Customers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="settings.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="_README.txt" />
+    <Compile Include="main.py" />
+    <Compile Include="settings.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
